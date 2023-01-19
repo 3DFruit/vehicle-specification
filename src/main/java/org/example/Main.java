@@ -13,7 +13,7 @@ public class Main {
                 int menuOption = Integer.parseInt(arg);
                 Vehicle vehicle = factory.createVehicle(menuOption);
                 if (vehicle == null) {
-                    System.out.println("НЕИЗВЕСТНЫЙ ТИП ТРАНСПОРТА");
+                    System.out.println("\nНЕИЗВЕСТНЫЙ ТИП ТРАНСПОРТА");
                 } else {
                     System.out.println(vehicle);
                 }
